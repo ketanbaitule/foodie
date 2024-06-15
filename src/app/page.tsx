@@ -1,7 +1,11 @@
+import { SecondaryHeading, PrimaryHeading } from "@/components/Heading";
+
 export default function Home() {
   return (
     <main>
-      Hello World
+      <PrimaryHeading>Home</PrimaryHeading>
+      <SecondaryHeading>Home</SecondaryHeading>
+      Poppin
     </main>
   );
 }
