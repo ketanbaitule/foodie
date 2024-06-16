@@ -1,5 +1,5 @@
 import { SecondaryHeading, PrimaryHeading } from "@/components/Heading";
-import CategoryBox from "@/components/CategoryBox"
+import CategoryBox from "@/components/Categories/CategoryBox"
 
 export default function Home() {
   return (
