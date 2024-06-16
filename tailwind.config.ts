@@ -14,7 +14,6 @@ const config: Config = {
         glasscolor: "rgba(255, 255, 255, 0.1)", // Light glassy color
         backdrop: "rgba(0, 0, 0, 0.4)", // Dark backdrop color
         secondary: "rgba(156 ,163 ,175, 0.5)",
-        glasscolor:"#373A43"
       },
     },
   },
