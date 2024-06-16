@@ -7,7 +7,7 @@ interface ProductDetailsProps {
   hotel: string;
   image: string[];
   discount: string;
-  price: number;
+  price: string | number;
   descriptions: string[];
   "open-timing": string;
   stars: number;
