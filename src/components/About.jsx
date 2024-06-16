@@ -7,11 +7,11 @@ import { PrimaryHeading, SecondaryHeading } from "./Heading";
 
 export default function About() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-center bg-gray-100">
-      <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-xl overflow-hidden mx-4 md:mx-10">
+    <main className="flex flex-col min-h-screen items-center justify-center text-white">
+      <div className="flex flex-col md:flex-row shadow-lg rounded-xl overflow-hidden mx-4 md:mx-10">
         <div className="flex-1 p-6 text-3xl">
           <SecondaryHeading>About Us</SecondaryHeading>
-          <p className="text-gray-900 text-lg md:text-2xl mb-4 mt-10 font-poppins">
+          <p className="text-lg md:text-2xl mb-4 mt-10 font-poppins">
             "Explore a world of culinary delight as we <br />
             offer franchisee opportunities for our <br />
             food shops across 51 primary locations. Join us <br />
