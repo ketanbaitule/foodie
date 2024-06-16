@@ -7,8 +7,11 @@ export default function Home() {
   return (
     <main>
       <PrimaryHeading>Home</PrimaryHeading>
+
       <SecondaryHeading >Categories</SecondaryHeading>
+     
       <CategoryBox/>
+      <About/>
       <MostPopularFood/>
     </main>
   );
