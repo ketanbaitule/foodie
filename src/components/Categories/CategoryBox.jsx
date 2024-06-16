@@ -3,9 +3,9 @@ import CategoryIcon from "./CategoryIcon";
 const CategoryBox = () => {
   return (
     <div className="flex flex-wrap justify-around items-center content-center gap-8 my-5">
-      {categoryItems.map((category) => {
+      {categoryItems.map((category,index) => {
         return (
-          <CategoryIcon
+          <CategoryIcon key={index}
             categoryName={category.name}
             categoryImage={category.img}
           />
