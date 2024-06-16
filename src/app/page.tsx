@@ -1,5 +1,6 @@
 import { SecondaryHeading, PrimaryHeading } from "@/components/Heading";
 import CategoryBox from "@/components/Categories/CategoryBox"
+import MostPopularFood from "./MostPopularFood";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <PrimaryHeading>Home</PrimaryHeading>
       <SecondaryHeading >Categories</SecondaryHeading>
       <CategoryBox/>
+      <MostPopularFood/>
     </main>
   );
 }

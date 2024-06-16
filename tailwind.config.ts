@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: "#F27704",
+        "base" :"rgba(156 ,163 ,175, 0.5)",
       },
     },
   },
