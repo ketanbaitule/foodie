@@ -44,7 +44,7 @@ export default function About() {
             </div>
             <div className="ml-4">
               <h2 className="text-lg md:text-xl font-bold mb-2">Free Delivery</h2>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="textwhite text-sm md:text-base">
                 Explore our website and enjoy free delivery on all orders an effortless way to enhance
               </p>
             </div>
@@ -59,7 +59,7 @@ export default function About() {
             </div>
             <div className="ml-4">
               <h2 className="text-lg md:text-xl font-bold mb-2">24/7 Support</h2>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="textwhite text-sm md:text-base">
                 Empowering Excellence Around the Clock: Your 24/7 Support Partner
               </p>
             </div>
@@ -74,7 +74,7 @@ export default function About() {
             </div>
             <div className="ml-4">
               <h2 className="text-lg md:text-xl font-bold mb-2">Secure Payment</h2>
-              <p className="text-gray-400 text-sm md:text-base">
+              <p className="textwhite text-sm md:text-base">
                 Empowering Trust, Ensuring Security: Your Path to Seamless and Secure Payments
               </p>
             </div>
@@ -145,7 +145,7 @@ export default function About() {
           </div>
           <div className="flex flex-col items-start">
             <h2 className="text-2xl font-bold mb-5">Free delivery</h2>
-            <p className="text-gray-400">
+            <p className="textwhite">
               Explore our website and enjoy free delivery on all orders an
               effortless way to enhance
             </p>
@@ -157,7 +157,7 @@ export default function About() {
           </div>
           <div className="flex flex-col items-start">
             <h3 className="text-2xl font-bold mb-5">24/07 Support</h3>
-            <p className="text-gray-400">
+            <p className="textwhite">
               Empowering Excellence Around the Clock: Your 24/7 Support Partner
             </p>
           </div>
@@ -168,7 +168,7 @@ export default function About() {
           </div>
           <div className="flex flex-col items-start">
             <h3 className="text-2xl font-bold mb-5">Secure Payment</h3>
-            <p className="text-gray-400">
+            <p className="textwhite">
               Empowering Trust, Ensuring Security: Your Path to Seamless and
               Secure Payments
             </p>
@@ -188,7 +188,7 @@ export default function About() {
 //             </div>
 //             <div className="ml-4">
 //               <h2 className="text-lg md:text-xl font-bold mb-2">Free Delivery</h2>
-//               <p className="text-gray-400 text-sm md:text-base">
+//               <p className="textwhite text-sm md:text-base">
 //                 Explore our website and enjoy free delivery on all orders an effortless way to enhance
 //               </p>
 //             </div>
@@ -203,7 +203,7 @@ export default function About() {
 //             </div>
 //             <div className="ml-4">
 //               <h2 className="text-lg md:text-xl font-bold mb-2">24/7 Support</h2>
-//               <p className="text-gray-400 text-sm md:text-base">
+//               <p className="textwhite text-sm md:text-base">
 //                 Empowering Excellence Around the Clock: Your 24/7 Support Partner
 //               </p>
 //             </div>
@@ -218,7 +218,7 @@ export default function About() {
 //             </div>
 //             <div className="ml-4">
 //               <h2 className="text-lg md:text-xl font-bold mb-2">Secure Payment</h2>
-//               <p className="text-gray-400 text-sm md:text-base">
+//               <p className="textwhite text-sm md:text-base">
 //                 Empowering Trust, Ensuring Security: Your Path to Seamless and Secure Payments
 //               </p>
 //             </div>
