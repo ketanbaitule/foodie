@@ -13,6 +13,7 @@ export default function Home() {
       <CategoryBox/>
       <About/>
       <MostPopularFood/>
+      <About/>age)
     </main>
   );
 }
