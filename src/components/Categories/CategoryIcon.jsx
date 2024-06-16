@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const CategoryIcon = ({ categoryName, categoryImage, variant }) => {
-  let variantClass = "rounded-2xl rounded-bl-[3vw] rounded-tr-[3vw]";
+  let variantClass = "rounded-2xl rounded-bl-[70px] rounded-tr-[70px]";
   if (variant == "circle") {
     variantClass = "rounded-full";
   }
