@@ -1,14 +1,18 @@
 import Image from "next/image";
 
-const CategoryIcon = ({ categoryName, categoryImage }) => {
+const CategoryIcon = ({ categoryName, categoryImage, variant }) => {
+  let variantClass = "rounded-2xl rounded-bl-[3vw] rounded-tr-[3vw]";
+  if (variant == "circle") {
+    variantClass = "rounded-full";
+  }
   return (
     <div className="flex flex-col items-center gap-y-2">
-      <div className="w-36 h-36 relative">
+      <div className="w-40 h-40 relative">
         <Image
           src={categoryImage}
           alt={categoryName}
           fill
-          className="object-contain rounded-full"
+          className={`object-contain ${variantClass}`}
         />
       </div>
       <p className="font-medium text-xl text-center">{categoryName}</p>
