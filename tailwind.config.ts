@@ -8,13 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+      colors: {
+        primary: "#F27704",
+        "base" :"rgba(156 ,163 ,175, 0.5)",
       },
     },
     colors: {
-      "primary": "#F27705",
-      "glasscolor":"#373A43"
+      "primary": "#F27705"
     }
   },
   plugins: [],
