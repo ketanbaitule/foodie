@@ -1,4 +1,4 @@
-"use client";
+
 import Image from "next/image";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
@@ -12,12 +12,12 @@ export default function About() {
         <div className="flex-1 p-6 text-3xl">
           <SecondaryHeading>About Us</SecondaryHeading>
           <p className="text-lg md:text-2xl mb-4 mt-10 font-poppins">
-            "Explore a world of culinary delight as we <br />
-            offer franchisee opportunities for our <br />
-            food shops across 51 primary locations. Join us <br />
-            in bringing exceptional flavors to every corner, <br />
-            creating a savory experience for franchisees <br /> and
-            customers alike"
+          &quot;Explore a world of culinary delight as we <br />  
+            offer franchisee opportunities for our <br />  
+            food shops across 51 primary locations. Join us <br />  
+            in bringing exceptional flavors to every corner, <br />  
+            creating a savory experience for franchisees <br /> and  
+            customers alike&quot; 
           </p>
           <button className="bg-primary text-white font-medium py-2 px-4 rounded-full text-sm mt-8">
             Know more &rarr;
@@ -37,7 +37,7 @@ export default function About() {
        {/* Features Section */}
        <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-6xl mt-10 md:mt-20 gap-6 md:gap-24 px-4 md:px-20">
         {/* Card 1 */}
-        <div className="flex flex-col bg-glasscolor bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
+        <div className="flex flex-col bg-secondary bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
           <div className="flex items-center mb-4">
             <div className="bg-primary text-white rounded-full p-4">
               <TbTruckDelivery size={34} />
@@ -52,7 +52,7 @@ export default function About() {
         </div>
 
         {/* Card 2 */}
-        <div className="flex flex-col bg-glasscolor bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
+        <div className="flex flex-col  bg-secondary bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
           <div className="flex items-center mb-4">
             <div className="bg-primary text-white rounded-full p-4">
               <MdOutlineAccountBalanceWallet size={34} />
@@ -67,7 +67,7 @@ export default function About() {
         </div>
 
         {/* Card 3 */}
-        <div className="flex flex-col bg-glasscolor bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
+        <div className="flex flex-col  bg-secondary bg-opacity-50 backdrop-blur-md rounded-xl shadow-md p-6 w-full md:w-80">
           <div className="flex items-center mb-4">
             <div className="bg-primary text-white rounded-full p-4">
               <BiSupport size={34} />
