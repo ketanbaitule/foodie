@@ -50,7 +50,7 @@ export const naanItems = [
     discount: "Flat Rs.100 off",
     price: "₹189",
     rating: "5.0",
-    imgUrl: "/soup.jpg",
+    imgUrl: "/soups.jpg",
     category: "naan",
   },
 ];
@@ -107,7 +107,7 @@ export const paneerItems = [
     discount: "Flat Rs.100 off",
     price: "₹189",
     rating: "5.0",
-    imgUrl: "/soup.jpg",
+    imgUrl: "/soups.jpg",
     category: "paneer-starter",
   },
 ];
@@ -164,7 +164,7 @@ export const mushroomItems = [
     discount: "Flat Rs.100 off",
     price: "₹189",
     rating: "5.0",
-    imgUrl: "/soup.jpg",
+    imgUrl: "/soups.jpg",
     category: "mushroom-baby-corn",
   },
 ];
