@@ -26,7 +26,7 @@ function ProductItem({ item }) {
                 {item.foodName}
               </h2>
               <h5 className="font-medium text-xl">{item.discount}</h5>
-              <h6 className="text-2xl font-medium "> ₹ {item.price}</h6>
+              <h6 className="text-2xl font-medium "> {item.price}</h6>
             </div>
           </div>
         </div>

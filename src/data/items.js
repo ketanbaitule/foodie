@@ -6,7 +6,7 @@ export const naanItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/curry.jpg",
-    category: "Naan",
+    category: "naan",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const naanItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/food.jpg",
-    category: "Naan",
+    category: "naan",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const naanItems = [
     price: "₹200",
     rating: "5.0",
     imgUrl: "/food2.avif",
-    category: "Naan",
+    category: "naan",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const naanItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/food3.avif",
-    category: "Naan",
+    category: "naan",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const naanItems = [
     price: "₹199",
     rating: "5.0",
     imgUrl: "/naan.jpg",
-    category: "Naan",
+    category: "naan",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const naanItems = [
     price: "₹189",
     rating: "5.0",
     imgUrl: "/soup.jpg",
-    category: "Naan",
+    category: "naan",
   },
 ];
 
@@ -63,7 +63,7 @@ export const paneerItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/curry.jpg",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ export const paneerItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/food.jpg",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ export const paneerItems = [
     price: "₹200",
     rating: "5.0",
     imgUrl: "/food2.avif",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
   {
     id: 10,
@@ -90,7 +90,7 @@ export const paneerItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/food3.avif",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
   {
     id: 11,
@@ -99,7 +99,7 @@ export const paneerItems = [
     price: "₹199",
     rating: "5.0",
     imgUrl: "/naan.jpg",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
   {
     id: 12,
@@ -108,7 +108,7 @@ export const paneerItems = [
     price: "₹189",
     rating: "5.0",
     imgUrl: "/soup.jpg",
-    category: "Panner Starter",
+    category: "paneer-starter",
   },
 ];
 
@@ -120,7 +120,7 @@ export const mushroomItems = [
     price: "₹239",
     rating: "5.0",
     imgUrl: "/curry.jpg",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
   {
     id: 14,
@@ -129,7 +129,7 @@ export const mushroomItems = [
     price: "₹159",
     rating: "5.0",
     imgUrl: "/food.jpg",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
   {
     id: 15,
@@ -138,7 +138,7 @@ export const mushroomItems = [
     price: "₹129",
     rating: "5.0",
     imgUrl: "/food2.avif",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
   {
     id: 16,
@@ -147,7 +147,7 @@ export const mushroomItems = [
     price: "₹189",
     rating: "5.0",
     imgUrl: "/food3.avif",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
   {
     id: 17,
@@ -156,7 +156,7 @@ export const mushroomItems = [
     price: "₹180",
     rating: "5.0",
     imgUrl: "/naan.jpg",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
   {
     id: 18,
@@ -165,6 +165,6 @@ export const mushroomItems = [
     price: "₹189",
     rating: "5.0",
     imgUrl: "/soup.jpg",
-    category: "Mushroom & Baby corn",
+    category: "mushroom-baby-corn",
   },
 ];
