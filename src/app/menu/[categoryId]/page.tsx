@@ -1,5 +1,6 @@
 import { PrimaryHeading } from "@/components/Heading";
 import ProductItem from "@/components/ProductItem";
+import TempBox from "@/components/TempBox";
 import { categories, items } from "@/data";
 
 export default function categoryDetails({
@@ -18,7 +19,7 @@ export default function categoryDetails({
   );
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-y-5">
       <div className="text-center">
         <PrimaryHeading> {category.name}</PrimaryHeading>
       </div>
@@ -27,6 +28,7 @@ export default function categoryDetails({
           <ProductItem key={item.id} item={item} />
         ))}
       </div>
+      <TempBox name="Similiar Foods" />
     </div>
   );
 }
