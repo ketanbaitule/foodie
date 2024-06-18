@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import { SecondaryHeading, PrimaryHeading } from "@/components/Heading";
-import TopOfHomePAge from "@/components/TopOfHomePAge"
+import TopOfHomePAge from "./TopOfHomePAge"
 import CategoryBox from "@/components/Categories/CategoryBox";
 import MostPopularFood from "./MostPopularFood";
 
@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <PrimaryHeading>Home</PrimaryHeading>
 
-      <TopOfHomePAge></TopOfHomePAge>
+      <TopOfHomePAge/>
 
       <SecondaryHeading>Categories</SecondaryHeading>
       <CategoryBox variant={"default"} />
