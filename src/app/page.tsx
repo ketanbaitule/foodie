@@ -6,10 +6,7 @@ import MostPopularFood from "./MostPopularFood";
 export default function Home() {
   return (
     <main>
-      <PrimaryHeading>Home</PrimaryHeading>
-
       <SecondaryHeading>Categories</SecondaryHeading>
-
       <CategoryBox variant={"default"} />
       <About />
       <MostPopularFood />
