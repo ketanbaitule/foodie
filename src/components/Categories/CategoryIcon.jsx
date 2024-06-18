@@ -7,8 +7,8 @@ const CategoryIcon = ({ category, variant }) => {
     variantClass = "rounded-full";
   }
   return (
-    <div className="flex flex-col items-center gap-y-2">
-      <Link href={`/menu/${category.id}`}>
+    <div>
+      <Link href={`/menu/${category.id}`} className="flex flex-col items-center gap-y-2">
         <div className="w-40 h-40 relative">
           <Image
             src={category.img}
