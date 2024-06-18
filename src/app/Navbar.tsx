@@ -10,7 +10,7 @@ function Navbar(){
   const pathname =  usePathname();
 
   return (
-    <div className="bg-secondary py-4 px-12 mb-4">
+    <div className="bg-secondary py-4 px-12">
       <div className="flex flex-col md:flex-row container mx-auto justify-between gap-y-4">
         <div className="flex justify-between items-center">
           <h1 className={`text-primary text-4xl font-medium ${oswald.className}`}>Foodie</h1>
