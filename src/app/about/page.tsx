@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { PrimaryHeading, SecondaryHeading } from "@/components/Heading";
 
-export default function Menu() {
+export default function About() {
     return (
       <div className="flex flex-col justify-center items-center gap-8">
       <PrimaryHeading>About Us</PrimaryHeading>

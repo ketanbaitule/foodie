@@ -1,7 +1,7 @@
 import CategoryBox from "@/components/Categories/CategoryBox";
 import TempBox from "@/components/TempBox";
 
-export default function About() {
+export default function Menu() {
   return (
     <div className="flex flex-col gap-y-5 my-5">
       <CategoryBox variant={"circle"} />
