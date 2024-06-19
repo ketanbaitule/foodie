@@ -1,11 +1,7 @@
-// pages/index.js
-
 import { FaSearch, FaMapMarkerAlt, FaCity } from 'react-icons/fa';
-import {SubHeading,Subpara} from '@/components/Heading';
+import { oswald } from '@/style/font';
 
-
-
-export default function Home() {
+export default function Menus() {
   return (
     <div className="flex flex-col justify-center items-center p-5 min-h-screen ">
       <div className="flex flex-col sm:flex-row w-full max-w-5xl gap-7">
@@ -41,12 +37,12 @@ export default function Home() {
     style={{ backgroundImage: "url('./reactangle.jpg')",width:'100%', height: '512px' }}
   >
     <div className="relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-customGray bg-opacity-55 p-3 rounded-3xl w-[90%] sm:w-[550px] sm:h-[412px]">
-      <SubHeading>
-        Find the best restaurants, cafés <br /> and bars in India <br /> <br /> <br />
-      </SubHeading>
-      <Subpara className="text-white sm:mb-20">
+      <p className={`${oswald.className} text-2xl font-bold text-white pl-12`}>
+        Find the best restaurants, cafés and bars in India <br /> <br /> <br />
+      </p>
+      <p className={`${oswald.className} text-2xl font-medium text-white pl-14 `}>
         Late night at office? <br /> Order food from favourite <br /> restaurants near you
-      </Subpara>
+      </p>
       <button className="  bg-primary text-white px-10 py-3 rounded-xl block mx-auto mt-6 lg:ml-96 lg:mt-20  sm:ml-0 sm:mt-20 sm:w-auto ">
         Explore
       </button>
