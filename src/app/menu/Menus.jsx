@@ -3,7 +3,7 @@ import { oswald } from "@/style/font";
 
 export default function Menus() {
   return (
-    <div className="flex flex-col justify-center items-center p-5 min-h-screen ">
+    <div className="flex flex-col justify-center items-center">
       <div className="flex flex-col sm:flex-row w-full max-w-5xl gap-7">
         <div className="flex items-center bg-white bg-opacity-20 rounded-3xl p-3 backdrop-blur-md w-full">
           <FaSearch className="text-white" />
