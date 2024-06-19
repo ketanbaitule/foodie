@@ -1,7 +1,7 @@
 // pages/index.js
 
 import { FaSearch, FaMapMarkerAlt, FaCity } from 'react-icons/fa';
-import { PrimaryHeading, SecondaryHeading,SubHeading,Subpara } from '@/components/Heading';
+import {SubHeading,Subpara} from '@/components/Heading';
 
 
 
