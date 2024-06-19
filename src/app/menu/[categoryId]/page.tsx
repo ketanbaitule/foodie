@@ -1,6 +1,8 @@
+import Advertisement from "@/components/Advertisement";
 import { PrimaryHeading } from "@/components/Heading";
 import ProductItem from "@/components/ProductItem";
 import TempBox from "@/components/TempBox";
+import TopReview from "@/components/TopReview";
 import { categories, items } from "@/data";
 
 export default function categoryDetails({
@@ -28,7 +30,10 @@ export default function categoryDetails({
           <ProductItem key={item.id} item={item} />
         ))}
       </div>
-      <TempBox name="Similiar Foods" />
+      <Advertisement />
+      <TopReview />
+      <TempBox name="Deserts" />
+      <TempBox name="Burgers" />
     </div>
   );
 }
