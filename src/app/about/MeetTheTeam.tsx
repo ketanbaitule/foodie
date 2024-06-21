@@ -1,7 +1,7 @@
 import { SecondaryHeading } from "@/components/Heading";
 import Image from "next/image";
 
-function TeamMember({ name, role, image }) {
+function TeamMember({ name, image }: { name: string; image: string }) {
   return (
     <div className="flex flex-col items-stretch">
       <Image src={image} alt={name} width={250} height={300} />
@@ -22,26 +22,10 @@ function MeetTheTeam() {
         every day.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center w-full gap-10">
-        <TeamMember
-          name="John Doe"
-          role="Head Chef"
-          image="/about/team/team1.png"
-        />
-        <TeamMember
-          name="John Doe"
-          role="Head Chef"
-          image="/about/team/team2.png"
-        />
-        <TeamMember
-          name="John Doe"
-          role="Head Chef"
-          image="/about/team/team3.png"
-        />
-        <TeamMember
-          name="John Doe"
-          role="Head Chef"
-          image="/about/team/team4.png"
-        />
+        <TeamMember name="John Doe" image="/about/team/team1.png" />
+        <TeamMember name="John Doe" image="/about/team/team2.png" />
+        <TeamMember name="John Doe" image="/about/team/team3.png" />
+        <TeamMember name="John Doe" image="/about/team/team4.png" />
       </div>
     </div>
   );
