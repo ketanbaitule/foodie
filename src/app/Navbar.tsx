@@ -46,7 +46,7 @@ function Navbar() {
           <li
             className={`${pathname == "/contact" ? "text-primary text-lg font-medium" : "text-white"}`}
           >
-            <Link href={"/about"}>Contact</Link>
+            <Link href={"/contact"}>Contact</Link>
           </li>
         </ul>
       </div>
