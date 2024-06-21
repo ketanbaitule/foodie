@@ -15,13 +15,13 @@ function Refund() {
         <p>
           <h2 className="font-bold ">Refunds and Replacements:</h2>
           If you receive an incorrect order (e.g., wrong item delivered), please
-          notify our customer service within [number of days] days of delivery.
-          We will arrange for a replacement of the incorrect item or issue a
-          refund for the amount paid for that item. If you encounter any quality
-          issues with the food you have received, such as spoiled or damaged
-          items, please notify us immediately with supporting evidence (e.g.,
-          photos). Depending on the circumstances and at our discretion, we may
-          offer a refund or replacement.
+          notify our customer service within same day of delivery. We will
+          arrange for a replacement of the incorrect item or issue a refund for
+          the amount paid for that item. If you encounter any quality issues
+          with the food you have received, such as spoiled or damaged items,
+          please notify us immediately with supporting evidence (e.g., photos).
+          Depending on the circumstances and at our discretion, we may offer a
+          refund or replacement.
         </p>
         <p>
           <h2 className="font-bold ">Cancellation Policy:</h2>
@@ -42,8 +42,8 @@ function Refund() {
           <h2 className="font-bold ">Exceptions:</h2>
           Our return policy does not cover changes in personal taste
           preferences, orders where the customer has provided incorrect delivery
-          information, or delays caused by factors outside of Foodie's control
-          (e.g., weather conditions affecting delivery).
+          information, or delays caused by factors outside of Foodie&apos;s
+          control (e.g., weather conditions affecting delivery).
         </p>
         <p>
           <h2 className="font-bold ">Changes to the Return Policy:</h2>
