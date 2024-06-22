@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import RoundedButton from "../components/RoundedButton";
 
 function TopOfHomePAge() {
@@ -17,7 +17,9 @@ function TopOfHomePAge() {
               Recommended by every foodie Order now for exclusive Offers.
             </p>
           </div>
-          <RoundedButton text={"Order Now"} />
+          <Link href="/menu">
+            <RoundedButton text={"Order Now"} />
+          </Link>
         </div>
 
         <div className="rounded-full justify-center items-center">
