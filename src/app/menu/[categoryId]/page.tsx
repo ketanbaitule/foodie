@@ -30,8 +30,8 @@ export default function categoryDetails({
       </div>
       <Advertisement />
       <TopReview />
-      <TempBox name="Deserts" />
-      <TempBox name="Burgers" />
+      <TempBox itemList={getCategoryItems("deserts")} name="Deserts" />
+      <TempBox itemList={getCategoryItems("burgers")} name="Burgers" />
     </div>
   );
 }

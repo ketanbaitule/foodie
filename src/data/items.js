@@ -7,6 +7,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/sweet-corn.png",
     category: "soups",
+    similarItems: [3, 6, 5],
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/tomato.png",
     category: "soups",
+    similarItems: [1, 6, 5],
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/veg-clear-soup.png",
     category: "soups",
+    similarItems: [6, 5, 2],
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/veg-hot-saur-soup.png",
     category: "soups",
+    similarItems: [1, 3, 5],
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/mushroom-soup.png",
     category: "soups",
+    similarItems: [1, 2, 3],
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/soups/veg-corn-soup.png",
     category: "soups",
+    similarItems: [1, 3, 5],
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/veg-mushroom-manchurian.png",
     category: "mushroom-baby-corn",
+    similarItems: [8, 9, 11],
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/chilli-manchurian.png",
     category: "mushroom-baby-corn",
+    similarItems: [7, 9, 10],
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/chilli-manchurian-corn.png",
     category: "mushroom-baby-corn",
+    similarItems: [8, 7, 10],
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/chilli-baby-corn.png",
     category: "mushroom-baby-corn",
+    similarItems: [8, 9, 11],
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/gobi-manchurian.png",
     category: "mushroom-baby-corn",
+    similarItems: [7, 9, 10],
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/mushroom-baby-corn/65-manchurian.png",
     category: "mushroom-baby-corn",
+    similarItems: [8, 7, 10],
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/dargon-panner.png",
     category: "paneer-starter",
+    similarItems: [14, 16, 17],
   },
   {
     id: 14,
@@ -124,6 +137,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/magestic-panner.png",
     category: "paneer-starter",
+    similarItems: [15, 16, 17],
   },
   {
     id: 15,
@@ -133,6 +147,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/paper-paneer.png",
     category: "paneer-starter",
+    similarItems: [13, 14, 17],
   },
   {
     id: 16,
@@ -142,6 +157,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/65-paneer.png",
     category: "paneer-starter",
+    similarItems: [13, 14, 17],
   },
   {
     id: 17,
@@ -151,6 +167,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/chilli-paneer.png",
     category: "paneer-starter",
+    similarItems: [13, 14, 16],
   },
   {
     id: 18,
@@ -160,6 +177,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/paneer-starter/paneer-tikka.png",
     category: "paneer-starter",
+    similarItems: [13, 14, 17],
   },
   {
     id: 19,
@@ -169,6 +187,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/naan/plain-naan.png",
     category: "naan",
+    similarItems: [20, 21, 22],
   },
   {
     id: 20,
@@ -178,6 +197,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/naan/butter-naan.png",
     category: "naan",
+    similarItems: [19, 21, 23],
   },
   {
     id: 21,
@@ -187,6 +207,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/naan/garlic-naan.png",
     category: "naan",
+    similarItems: [19, 20, 22],
   },
   {
     id: 22,
@@ -196,15 +217,17 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/naan/chat-pat-naan.png",
     category: "naan",
+    similarItems: [19, 20, 21],
   },
   {
     id: 23,
-    foodName: "Baby Naan",
+    foodName: "Mirch Nanna",
     discount: "Flat Rs.100 off",
     price: "₹200",
     rating: 5,
-    imgUrl: "/menu/naan/baby-naan.png",
+    imgUrl: "/menu/naan/mirch-nanna.png",
     category: "naan",
+    similarItems: [20, 21, 22],
   },
   {
     id: 24,
@@ -214,6 +237,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/naan/kothirm-naan.png",
     category: "naan",
+    similarItems: [19, 20, 22],
   },
   {
     id: 25,
@@ -223,6 +247,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/masala-kulcha.png",
     category: "kulcha-paratha",
+    similarItems: [26, 27, 28],
   },
   {
     id: 26,
@@ -232,6 +257,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/paneer-kulcha.png",
     category: "kulcha-paratha",
+    similarItems: [25, 27, 28],
   },
   {
     id: 27,
@@ -241,6 +267,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/stuff-kulcha.png",
     category: "kulcha-paratha",
+    similarItems: [25, 26, 28],
   },
   {
     id: 28,
@@ -250,6 +277,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/lacha-paratha.png",
     category: "kulcha-paratha",
+    similarItems: [25, 26, 27],
   },
   {
     id: 29,
@@ -259,6 +287,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/methi-paratha.png",
     category: "kulcha-paratha",
+    similarItems: [25, 26, 27],
   },
   {
     id: 30,
@@ -268,6 +297,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/kulcha-paratha/allu-paratha.png",
     category: "kulcha-paratha",
+    similarItems: [25, 26, 27],
   },
   {
     id: 31,
@@ -277,6 +307,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/cold-drink.png",
     category: "ice-cream",
+    similarItems: [32, 33, 34],
   },
   {
     id: 32,
@@ -286,6 +317,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/belgian-chocolate.png",
     category: "ice-cream",
+    similarItems: [31, 33, 34],
   },
   {
     id: 33,
@@ -295,6 +327,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/rajbog.png",
     category: "ice-cream",
+    similarItems: [31, 32, 34],
   },
   {
     id: 34,
@@ -304,6 +337,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/gulab-jamun.png",
     category: "ice-cream",
+    similarItems: [31, 32, 33],
   },
   {
     id: 35,
@@ -313,6 +347,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/kulfi.png",
     category: "ice-cream",
+    similarItems: [31, 32, 33],
   },
   {
     id: 36,
@@ -322,6 +357,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/ice-cream/mango.png",
     category: "ice-cream",
+    similarItems: [31, 32, 33],
   },
   {
     id: 37,
@@ -331,6 +367,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/paneer-butter-masala.png",
     category: "currys",
+    similarItems: [38, 39, 40],
   },
   {
     id: 38,
@@ -340,6 +377,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/methi-paratha.png",
     category: "currys",
+    similarItems: [37, 39, 41],
   },
   {
     id: 39,
@@ -349,6 +387,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/kadai-paneer.png",
     category: "currys",
+    similarItems: [37, 38, 40],
   },
   {
     id: 40,
@@ -358,6 +397,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/kaju-paneer.png",
     category: "currys",
+    similarItems: [37, 38, 39],
   },
   {
     id: 41,
@@ -367,6 +407,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/kaju-butter-masal.png",
     category: "currys",
+    similarItems: [38, 39, 40],
   },
   {
     id: 42,
@@ -376,6 +417,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/currys/kaju-curry.png",
     category: "currys",
+    similarItems: [37, 38, 39],
   },
   {
     id: 43,
@@ -385,6 +427,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/deserts/butter-scotch-icecream.png",
     category: "deserts",
+    similarItems: [44, 45, 46],
   },
   {
     id: 44,
@@ -394,6 +437,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/deserts/strawberry-icecream.png",
     category: "deserts",
+    similarItems: [43, 45, 46],
   },
   {
     id: 45,
@@ -403,6 +447,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/deserts/pista-icecream.png",
     category: "deserts",
+    similarItems: [43, 44, 46],
   },
   {
     id: 46,
@@ -412,6 +457,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/burgers/chicken-cheese-burgers.png",
     category: "burgers",
+    similarItems: [47, 48, 23],
   },
   {
     id: 47,
@@ -421,6 +467,7 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/burgers/prwans-burgers.png",
     category: "burgers",
+    similarItems: [46, 48, 23],
   },
   {
     id: 48,
@@ -430,5 +477,6 @@ export const items = [
     rating: 5,
     imgUrl: "/menu/burgers/chicken-lollipop.png",
     category: "burgers",
+    similarItems: [46, 47, 23],
   },
 ];

@@ -29,11 +29,16 @@ function ProductDetailsPage({ params }: { params: { productId: string } }) {
     price: itemDetails.price,
     stars: itemDetails.rating,
   };
+
+  const similiarItems: Item[] = itemDetails.similarItems.map((id) =>
+    getItemById(id),
+  ) as Item[];
+
   return (
     <div className="flex flex-col p-4 gap-y-4">
       <ProductDetails productDetails={productDetails} productId={productId} />
       <Special />
-      <SimiliarFood />
+      <SimiliarFood similiarItems={similiarItems} />
     </div>
   );
 }
