@@ -11,6 +11,8 @@ export const popularItems = [items[4], items[14], items[25]];
 
 export const specialItems = [items[10], items[30], items[40]];
 
+export const topReviewItems = [items[3], items[7], items[30], items[17]];
+
 export const getCategoryItems = (category: string) => {
   return items.filter((item) => item.category === category);
 };

@@ -1,5 +1,6 @@
 import { SecondaryHeading } from "@/components/Heading";
 import Image from "next/image";
+import Link from "next/link";
 import { BiSolidStar } from "react-icons/bi";
 
 interface ProductDetailsProps {
@@ -75,9 +76,11 @@ function ProductDetails({
         </div>
         <div className="grow"></div>
         <div className="grow flex items-center md:justify-center">
-          <button className="bg-white text-primary px-10 py-2 font-medium rounded-lg ">
-            Order Now
-          </button>
+          <Link href="/contact">
+            <button className="bg-white text-primary px-10 py-2 font-medium rounded-lg ">
+              Order Now
+            </button>
+          </Link>
         </div>
       </div>
     </div>
