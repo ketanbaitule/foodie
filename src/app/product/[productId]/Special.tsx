@@ -5,22 +5,28 @@ function Special() {
 
   const specialBoxes = [
     {
-      image: "/biryani.png",
+      image: "/product/full-thali.png",
       title: "Full Meal",
       description:
         "Full meals, South Indian meal preparation with restaurant style menu. Sambar, rasam, kuzhambu, vada payasam, curry, kootu, poriyal, rice, appalam, pickle and a chapathi.",
     },
     {
-      image: "/biryani.png",
+      image: "/product/noodles.png",
       title: "Noodles",
       description:
-        "Full meals, South Indian meal preparation with restaurant style menu. Sambar, rasam, kuzhambu, vada payasam, curry, kootu, poriyal, rice, appalam, pickle and a chapathi.",
+        "Noodles are staple foods in many Asian countries. Instant noodles are internationally well-known food and the consumption worldwide is on the top. Instant noodles have properties such as nutrition, taste, safety.",
     },
     {
-      image: "/biryani.png",
+      image: "/product/paneer.png",
       title: "Paneer",
       description:
-        "Full meals, South Indian meal preparation with restaurant style menu. Sambar, rasam, kuzhambu, vada payasam, curry, kootu, poriyal, rice, appalam, pickle and a chapathi.",
+        "Paneer tikka masala is a popular dish of grilled paneer in spicy onion tomato gravy. Learn how to make resaturant style paneer tikka masala.Full meals, South Indian meal preparation with restaurant style menu. Sambar, rasam, kuzhambu, vada payasam, curry, kootu, poriyal, rice, appalam, pickle and a chapathi.",
+    },
+    {
+      image: "/product/jeera-rice.png",
+      title: "Jeera rice",
+      description:
+        "Jeera rice, also known as cumin rice, is a popular Indian dish made by cooking rice with cumin seeds and ghee or butter.Jeera rice is a many people prefer to have jeera rice instead of plain basmati to go along with dals or curry dishes. ",
     },
   ];
 
