@@ -3,7 +3,7 @@ import { PrimaryHeading } from "@/components/Heading";
 import ProductItem from "@/components/ProductItem";
 import TempBox from "@/components/TempBox";
 import TopReview from "@/components/TopReview";
-import { categories, items } from "@/data";
+import { categories, getCategoryItems } from "@/data";
 
 export default function categoryDetails({
   params,
@@ -16,9 +16,7 @@ export default function categoryDetails({
 
   if (!category) return <div>Category not found</div>;
 
-  const categoryItem = items.filter(
-    (item) => item.category === params.categoryId,
-  );
+  const categoryItem = getCategoryItems(params.categoryId);
 
   return (
     <div className="flex flex-col gap-y-5">

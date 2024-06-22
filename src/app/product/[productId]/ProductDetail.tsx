@@ -18,7 +18,7 @@ function ProductDetails({
   productId,
 }: {
   productDetails: ProductDetailsProps;
-  productId: string;
+  productId: number;
 }) {
   return (
     <div className="flex flex-col md:flex-row items-stretch md:gap-x-10 gap-y-3 p-4">
