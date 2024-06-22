@@ -3,13 +3,19 @@ import Image from "next/image";
 import ProductDetails from "./ProductDetail";
 import Special from "./Special";
 import SimiliarFood from "./SimiliarFood";
+import { Item, getItemById } from "@/data";
 
 function ProductDetailsPage({ params }: { params: { productId: string } }) {
-  const productId = params.productId;
+  const productId = parseInt(params.productId);
+  const itemDetails = getItemById(productId);
+
+  if (!itemDetails)
+    return <SecondaryHeading>Product not found</SecondaryHeading>;
+
   const productDetails = {
     hotel: "Royal Hotel",
-    name: "Chicken Biryani",
-    image: ["/biryani.png", "/biryani.png", "/biryani.png"],
+    name: itemDetails.foodName,
+    image: ["/biryani.png", "/biryani.png", itemDetails.imgUrl],
     descriptions: [
       "Large 4 Chicken Breast",
       "Tomato Salad",
@@ -19,9 +25,9 @@ function ProductDetailsPage({ params }: { params: { productId: string } }) {
       "Sambhar",
     ],
     "open-timing": "11:30 AM - 12 midnight",
-    discount: "10% upto ₹40",
-    price: "₹820.50",
-    stars: 5.0,
+    discount: itemDetails.discount,
+    price: itemDetails.price,
+    stars: itemDetails.rating,
   };
   return (
     <div className="flex flex-col p-4 gap-y-4">
