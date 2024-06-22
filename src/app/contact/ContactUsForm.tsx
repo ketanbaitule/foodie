@@ -6,7 +6,7 @@ function ContactUsForm() {
       <div className="max-md:hidden">
         <SecondaryHeading>Contact Us</SecondaryHeading>
       </div>
-      <div className="flex flex-col gap-y-5 px-5 py-10">
+      <div className="flex flex-col gap-y-5 px-5 py-10 text-black ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 px-5">
           <input
             type="text"
