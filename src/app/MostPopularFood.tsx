@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import { SecondaryHeading } from "@/components/Heading";
 import RoundedButton from "@/components/RoundedButton";
 import ProductItem from "@/components/ProductItem";
@@ -10,7 +10,9 @@ function MostPopularFood() {
     <>
       <div className="flex justify-between">
         <SecondaryHeading>Most Popular Food</SecondaryHeading>
-        <RoundedButton text={"See more"} />
+        <Link href="/menu">
+          <RoundedButton text={"See more"} />
+        </Link>
       </div>
 
       <div className="flex flex-row flex-wrap justify-evenly gap-4">
