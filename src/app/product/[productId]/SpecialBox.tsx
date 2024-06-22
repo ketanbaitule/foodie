@@ -17,7 +17,7 @@ function SpecialBox({ specialBox }: SpecialBoxProps) {
             src={specialBox.image}
             alt={specialBox.title}
             fill
-            className="object-cover rounded-xl"
+            className="object-contain rounded-xl"
           />
         </div>
         <div className="w-2/3 md:w-full">
