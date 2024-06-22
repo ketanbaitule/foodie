@@ -7,7 +7,9 @@ export { items };
 
 export const similiarItems = [items[0], items[1], items[2]];
 
-export const popularItems = [...similiarItems];
+export const popularItems = [items[4], items[14], items[25]];
+
+export const specialItems = [items[10], items[30], items[40]];
 
 export const getCategoryItems = (category: string) => {
   return items.filter((item) => item.category === category);
@@ -25,4 +27,5 @@ export interface Item {
   rating: number;
   imgUrl: string;
   category: string;
+  similarItems: number[];
 }

@@ -1,9 +1,8 @@
 import { SecondaryHeading } from "@/components/Heading";
 import ProductItem from "@/components/ProductItem";
-import { similiarItems } from "@/data";
+import { Item } from "@/data";
 
-function SimiliarFood() {
-  //TODO: Fetch similiar items from API
+function SimiliarFood({ similiarItems }: { similiarItems: Item[] }) {
   return (
     <div>
       <SecondaryHeading>Similiar Food</SecondaryHeading>

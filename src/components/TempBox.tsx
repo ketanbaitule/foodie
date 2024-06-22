@@ -1,9 +1,14 @@
 import { SecondaryHeading } from "@/components/Heading";
-import { items } from "@/data";
 import ProductItem from "./ProductItem";
+import { Item } from "@/data";
 
-export default function TempBox({ name }: { name: string }) {
-  const itemList = items.slice(0, 3);
+export default function TempBox({
+  name,
+  itemList,
+}: {
+  name: string;
+  itemList: Item[];
+}) {
   return (
     <div>
       <SecondaryHeading>{name}</SecondaryHeading>
